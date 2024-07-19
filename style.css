@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(30, 31, 54);
+}
+
+.h-right-links {
+    display: flex;
+    gap: 16px;
+}
+
+ul {
+    list-style: none;
+}
