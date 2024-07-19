@@ -1,3 +1,7 @@
+* {
+    font-family: "Roboto", sans-serif;
+} 
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,6 +13,12 @@ body {
     background-color: rgb(30, 31, 54);
 }
 
+.hlogo {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
 .h-right-links {
     display: flex;
     gap: 16px;
@@ -16,4 +26,13 @@ body {
 
 ul {
     list-style: none;
+}
+
+.header, .intro, .info, .quote, .closer, .footer {
+    padding: 0 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
