@@ -5,31 +5,40 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(30, 31, 54);
+    padding: 20px;
 }
 
 .hlogo {
     color: aliceblue;
     display: flex;
     align-items: center;
+    font-weight: 800;
+    font-size: 24px;
 }
 
 .h-right-links {
     display: flex;
     gap: 16px;
+    font-size: 16px;
+    align-items: center;
 }
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .header, .intro, .info, .quote, .closer, .footer {
-    padding: 0 100px;
+   padding-left: 100px;
+   padding-right: 100px;
 }
 
 a {
