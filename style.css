@@ -93,7 +93,7 @@ button {
      align-items: center;
      gap: 30px;
      padding: 50px;
-     padding-bottom: 100px;
+     padding-bottom: 200px;
 }
 
 .title2 {
@@ -117,5 +117,31 @@ button {
 
 .caption {
     text-align: center;
+}
+
+.quote {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background: #E5E7EB;
+    padding: 200px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
+
+.mainq {
+    font-size: 36px;
+    font-style: italic;  
+}
+
+.sign {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 900;
 }
 
