@@ -1,5 +1,5 @@
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
 } 
 
 body {
@@ -48,14 +48,40 @@ a {
 
 .intro {
     display: flex;
+    background-color: rgb(30, 31, 54);
+    color: white;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .title {
     font-size: 48px;
+    font-weight: 900;
+    
+}
+
+.description1 {
+    width: 600px;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    background: #3882F6;
     color: white;
+    font-size: 16px;
+    padding: 10px;
 }
 
 .image1 {
-    width: 300px;
+    width: 600px;
 }
 
