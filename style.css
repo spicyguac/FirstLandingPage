@@ -73,13 +73,14 @@ a {
     font-size: 18px;
 }
 
-button {
+.button1 {
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     background: #3882F6;
     color: white;
     font-size: 16px;
     padding: 10px;
+    width: 120px;
 }
 
 .image1 {
@@ -173,5 +174,17 @@ button {
 
 .description2 {
     font-size: 20px;
+}
+
+.button2 {
+    border: none;
+    border-radius: 5px;
+    background: #3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    width: 120px;
+    border: solid white;
+    border-width: 5px 5px;
 }
 
