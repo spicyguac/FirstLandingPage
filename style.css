@@ -132,6 +132,7 @@ button {
     display: flex;
     flex-direction: column;
     width: 850px;
+    gap: 20px;
 }
 
 .mainq {
@@ -143,5 +144,11 @@ button {
     align-self: flex-end;
     font-size: 20px;
     font-weight: 900;
+}
+
+.ibox {
+    background: #3882F6;
+    display: flex;
+    padding: 10px 20px;
 }
 
