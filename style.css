@@ -188,3 +188,11 @@ a {
     border-width: 5px 5px;
 }
 
+.footer {
+    background-color: rgb(30, 31, 54);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
