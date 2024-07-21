@@ -37,8 +37,8 @@ ul {
 }
 
 .header, .intro, .info, .quote, .closer, .footer {
-   padding-left: 100px;
-   padding-right: 100px;
+   padding-left: 200px;
+   padding-right: 200px;
 }
 
 a {
@@ -154,10 +154,24 @@ button {
 .ibox {
     background: #3882F6;
     display: flex;
-    padding: 10px 20px;
-    justify-content: center;
+    padding: 10px 200px;
+    justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
+}
+
+.text2 {
+    color: white;
+    gap: 10px;
+}
+
+.title3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.description2 {
+    font-size: 20px;
 }
 
