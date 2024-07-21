@@ -70,7 +70,7 @@ a {
 
 .description1 {
     width: 600px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .button1 {
@@ -78,9 +78,9 @@ a {
     border-radius: 5px;
     background: #3882F6;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px;
-    width: 120px;
+    width: 150px;
 }
 
 .image1 {
